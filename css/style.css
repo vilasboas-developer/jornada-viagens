@@ -1,3 +1,15 @@
+:root {
+  --background-primary-color: #ffffff;
+  --background-secondary-color: #f5f5f5;
+  --background-tertiary-color: #000000;
+
+  --button-primary-color: #b81515;
+  --button-secondary-color: #8f0101;
+
+  --text-primary-color: #222222;
+  --text-primary-color: #ffffff;
+}
+
 /* CSS RESET */
 body,
 img,
