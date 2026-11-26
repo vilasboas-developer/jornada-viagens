@@ -14,9 +14,12 @@ header {
 }
 
 .navigation-menu {
+}
 
+input[type="checkbox"]:checked ~ nav {
+  display: block;
 }
 
 nav {
-    display: none;
+  display: none;
 }
