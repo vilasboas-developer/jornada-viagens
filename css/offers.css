@@ -35,13 +35,37 @@
   width: 100%;
 }
 
+.japao {
+  background: url(../img/bg-card-japao.jpg) no-repeat center / cover;
+}
+
+.san-andreas {
+  background: url(../img/bg-card-san-andreas.jpg) no-repeat center / cover;
+}
+
+.paraiba {
+  background: url(../img/bg-card-paraiba.jpg) no-repeat center / cover;
+}
+
+.manaus {
+  background: url(../img/bg-card-manaus.jpg) no-repeat center / cover;
+}
+
+@media screen and (min-width: 768px) {
+  .offers-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .offers-cards {
     padding: 64px 0 104px;
   }
 
   .card {
-    width: 588px;
+    width: 420px;
     height: 308px;
   }
 
@@ -51,5 +75,18 @@
 
   .card section h3 span {
     font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .card {
+    width: 588px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .offers-cards {
+    width: 1200px;
+    margin: 0 auto;
   }
 }
