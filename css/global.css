@@ -56,18 +56,21 @@ body {
   height: 4px;
   background-color: var(--primary-color);
   border: none;
-  margin: 16px auto 32px;
+  margin: 16px auto 0;
 }
 
 .button {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--primary-color);
   color: var(--text-secondary-color);
   font-size: 20px;
   font-weight: var(--title-weight);
-  line-height: 32px;
   text-decoration: none;
-  padding: 16px 74px;
+  width: 280px;
+  height: 64px;
+  margin: 0 auto;
   border-radius: 8px;
 }
 
