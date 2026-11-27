@@ -1,4 +1,4 @@
-header {
+.page-header {
   background-color: var(--background-tertiary-color);
   position: relative;
   display: flex;
