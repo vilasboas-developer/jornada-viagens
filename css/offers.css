@@ -6,7 +6,7 @@
   padding: 32px 0 88px;
 }
 
-.card {
+.offers-cards .card {
   background-color: black;
   padding: 24px 0;
   color: var(--text-secondary-color);
@@ -16,19 +16,19 @@
   text-align: center;
 }
 
-.card header p {
+.offers-cards .card header p {
   font-size: 20px;
   font-weight: var(--text-weight);
   line-height: 32px;
 }
 
-.card section h3 {
+.offers-cards .card section h3 {
   font-size: 40px;
   font-weight: var(--title-weight);
   margin: 8px 0 24px;
 }
 
-.card section h3 span {
+.offers-cards .card section h3 span {
   display: inline-block;
   font-size: 32px;
   margin-top: 24px;
@@ -64,22 +64,22 @@
     padding: 64px 0 104px;
   }
 
-  .card {
+  .offers-cards .card {
     width: 420px;
     height: 308px;
   }
 
-  .card section h3 {
+  .offers-cards .card section h3 {
     font-size: 48px;
   }
 
-  .card section h3 span {
+  .offers-cards .card section h3 span {
     font-size: 40px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .card {
+  .offers-cards .card {
     width: 588px;
   }
 }
