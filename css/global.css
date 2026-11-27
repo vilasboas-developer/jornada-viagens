@@ -36,12 +36,20 @@ button,
 article {
   margin: 0;
   padding: 0;
+}
+
+* {
   box-sizing: border-box;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
   color: var(--text-primary-color);
+}
+
+.section-title {
+  max-width: 312px;
+  margin: 0 auto;
 }
 
 .section-title h2 {
@@ -75,6 +83,10 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .section-title {
+    max-width: none;
+  }
+  
   .section-title h2 {
     font-size: 32px;
   }
