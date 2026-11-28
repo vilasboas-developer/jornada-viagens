@@ -32,17 +32,6 @@
   background: url(../img/osaka-mobile.jpg) no-repeat center / cover;
 }
 
-.item header h4 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
-}
-
-.item p {
-  font-size: 20px;
-  font-weight: var(--text-weight);
-  line-height: 32px;
-}
-
 .item footer .button {
   margin: 0;
   max-width: 312px;

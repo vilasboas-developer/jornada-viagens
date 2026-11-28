@@ -1,0 +1,89 @@
+.payments {
+  max-width: 312px;
+  margin: 0 auto;
+  padding-bottom: 88px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.text-content h3 {
+  margin: 32px 0 24px;
+}
+
+.image-content {
+  width: 100%;
+  min-height: 460px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(0, 254px) auto;
+  gap: 24px;
+}
+
+.image.first {
+  background: url(../img/bag.jpg) no-repeat center/cover;
+}
+
+.image.second {
+  background: url(../img/passport.jpg) no-repeat center/cover;
+}
+
+.image.thirty {
+  background: url(../img/bridge.jpg) no-repeat center/cover;
+}
+
+.colspan-2 {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .payments {
+    max-width: 648px;
+  }
+
+  .image.first {
+    background: url(../img/bag-tablet.jpg) no-repeat center/cover;
+  }
+
+  .image.second {
+    background: url(../img/passport-tablet.jpg) no-repeat center/cover;
+  }
+
+  .image.thirty {
+    background: url(../img/bridge-tablet.jpg) no-repeat center/cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .payments {
+    max-width: 864px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments {
+    max-width: 1200px;
+  }
+
+  .content {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+    margin-top: 64px;
+  }
+
+  .text-content {
+    width: 361px;
+  }
+
+  .text-content h3 {
+    margin: 0;
+  }
+
+  .image-content {
+    width: 790px;
+  }
+}
