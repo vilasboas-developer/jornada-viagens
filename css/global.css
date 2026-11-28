@@ -48,8 +48,12 @@ body {
   color: var(--text-primary-color);
 }
 
+section.hero {
+  max-width: none;
+}
+
 .section-title {
-  max-width: 312px;
+  max-width: 280px;
   margin: 0 auto;
 }
 
@@ -88,7 +92,7 @@ body {
   .section-title {
     max-width: none;
   }
-  
+
   .section-title h2 {
     font-size: 32px;
   }
