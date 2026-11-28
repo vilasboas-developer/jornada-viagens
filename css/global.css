@@ -25,6 +25,7 @@
 body,
 img,
 h1,
+h4,
 p,
 fieldset,
 legend,
@@ -47,8 +48,12 @@ body {
   color: var(--text-primary-color);
 }
 
+section.hero {
+  max-width: none;
+}
+
 .section-title {
-  max-width: 312px;
+  max-width: 280px;
   margin: 0 auto;
 }
 
@@ -76,7 +81,8 @@ body {
   font-size: 20px;
   font-weight: var(--title-weight);
   text-decoration: none;
-  width: 280px;
+  width: 100%;
+  max-width: 280px;
   height: 64px;
   margin: 0 auto;
   border-radius: 8px;
@@ -86,7 +92,7 @@ body {
   .section-title {
     max-width: none;
   }
-  
+
   .section-title h2 {
     font-size: 32px;
   }
